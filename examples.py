@@ -32,4 +32,6 @@ def get_examples(char):
         example_entry = f'{examples[0]} - {word} ({examples[1]})'
         example_cell += example_entry + '\n'
 
-        return example_cell
+    return example_cell
+
+print(get_examples('人'))
