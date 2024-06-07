@@ -67,7 +67,7 @@ for entry in list_1800:
         entry.append('')
 
 # Additional data requests. See modules for details.
-for index, entry in enumerate(list_1800[0:2]):
+for index, entry in enumerate(list_1800):
     for char in entry[0]:
         list_1800[index].append(get_examples(char))
         list_1800[index].append(get_radicals(char))
